@@ -1,0 +1,121 @@
+[
+    {
+      "name": "Amozil",
+      "price": "65",
+      "drugImg": "../assets/building1.png",
+      "condition": "Malaria",
+      "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+    },
+    {
+        "name": "Armathem",
+        "price": "65",
+        "drugImg": "../assets/drug.1.png",
+        "condition": "Malaria",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Lumatherm",
+        "price": "65",
+        "drugImg": "../assets/drug3.png",
+        "condition": "Malaria",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug4.png",
+        "condition": "Tooth aches",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug5.png",
+        "condition": "Tooth aches",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug6.png",
+        "condition": "Tooth aches",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug7.png",
+        "condition": "Diabetes",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug8.png",
+        "condition": "Diabetes",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug1.png",
+        "condition": "Diabetes",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug2.png",
+        "condition": "Diabetes",
+        "description": "contains this will help to train pupils to get used solving word problems. Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug3.png",
+        "condition": "Neuronal imbalance",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug4.png",
+        "condition": "Neuronal imbalance",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug5.png",
+        "condition": "Neuronal imbalance",
+        "description": "contains this will help to train pupils to get used solving word problems. Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug6.png",
+        "condition": "Neuronal imbalance",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Employees",
+        "price": "65",
+        "drugImg": "../assets/drug7.png",
+        "condition": "Neuronal imbalance",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Amantadine 100mg x2",
+        "price": "65",
+        "drugImg": "../assets/drug8.png",
+        "condition": "Maleria",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      },
+      {
+        "name": "Amatem Softgel x6",
+        "price": "65",
+        "drugImg": "assets/drug4.png",
+        "condition": "Maleria",
+        "description": "Pupils who work through the books will not have any difficulty with solving word problems."
+      }
+  ]
