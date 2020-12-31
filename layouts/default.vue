@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <div class="main-container">
-      <div class="main-header" :class="{nav_active: scrollPosition > 80}">
-        <Header class="header" :links="links"/>
+      <div class="main-header" :class="{nav_active: scrollPosition > 80}" >
+        <Header class="header" :links="links" v-if="!['index', 'contact', 'pharmassentials', 'products', 'latest'].includes($route.name)"/>
       </div>
       <div class="main-body">
           <nuxt />

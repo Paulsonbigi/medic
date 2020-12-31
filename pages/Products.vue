@@ -134,10 +134,8 @@ export default {
     font-size: 15px;
 }
 .search-input:hover, .search-input:focus{
-    padding: 12px 12px;
     outline: 0;
     border: 1px solid  rgba(5, 20, 140, 0.8);
-    /* border-bottom: 1px solid rgba(5, 20, 140, 0.8); */
     border-radius: 0;
 }
 .header-contain{

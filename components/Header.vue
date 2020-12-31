@@ -8,13 +8,13 @@
                         <ul class="bar-links" v-for="link in links" :key="link.label">
                             <li><nuxt-link :to="link.urlLink">{{link.label}}</nuxt-link></li>
                         </ul>
-                        <button class="home-btn">Join us</button>
+                        <button class="home-btn"><nuxt-link to="signin">Join us</nuxt-link></button>
                     </div>
                     <v-card class="mobile-menu" ref="dropdownMenu"  :class="{open : showNav}">
                         <ul class="mobile-links" v-for="link in links" :key="link.label">
                             <li><nuxt-link :to="link.urlLink">{{link.label}}</nuxt-link></li>
                         </ul>
-                        <button class="mobile-btn">Join us</button>
+                        <button class="mobile-btn" onClick={openLogin}><nuxt-link to="signin">Join us</nuxt-link></button>
                     </v-card>
                     <div class="nav-icon">
                         <v-app-bar-nav-icon @click="toggleMenu" color="#ffffff" rounded></v-app-bar-nav-icon>
@@ -46,19 +46,10 @@ export default {
             let el = this.$refs.dropdownMenu
             let target = e.target
             console.log(target)
-            // if((el !== target) && !el.contains(target)){
-            //     this.showNav = !showNav
-            // }
-            // setTimeout(()=>{
-            //     this.showNav = false
-            // }, 200)
+        },
+        openLogin(){
+            
         }
-    },
-    created(){
-        // document.addEventListener("click", this.close)
-    },
-    destroyed(){
-        // document.removeEventListener("click", this.close)
     }
 }
 </script>
@@ -126,11 +117,16 @@ li a{
 li:hover{
     border-bottom: #ffffff;
 }
+.home-btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .home-btn, .mobile-btn{
     background: rgb(5, 108, 242) !important;
     padding: 5px 10px;
     color: #ffffff;
 }
+
 @media(max-width: 769px){
     .main-container{
         padding: 0px;
@@ -167,7 +163,7 @@ li:hover{
     }
     li a{
         text-decoration: none;
-        color: rgb(5, 108, 242);
+        color: rgba(5, 20, 140, 0.8);
         font-weight: 300;
     }
     li:hover{
@@ -179,6 +175,10 @@ li:hover{
         width: 40%;
         align-items: center;
         margin: 0 auto;
+    }
+    .mobile-btn a{
+        text-decoration: none;
+        color: #ffffff;
     }
     .open{
         transform: translate(-800px);
